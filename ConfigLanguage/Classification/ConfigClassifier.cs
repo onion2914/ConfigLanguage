@@ -20,7 +20,7 @@ namespace VSIXProject1.Classification
     {
         [Export]
         [Name("config")]
-        [BaseDefinition("csharp")]
+        [BaseDefinition("code")]
         internal static ContentTypeDefinition ConfigContentType = null;
 
         [Export]

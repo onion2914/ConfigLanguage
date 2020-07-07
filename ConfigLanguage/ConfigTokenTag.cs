@@ -64,7 +64,7 @@ namespace VSIXProject1
         public IEnumerable<ITagSpan<ConfigTokenTag>> GetTags(NormalizedSnapshotSpanCollection spans)
         {
             foreach (SnapshotSpan curSpan in spans) {
-
+                
                 ITextSnapshotLine containingLine = curSpan.Start.GetContainingLine();
                 string lineText = containingLine.GetText();
                 string tokenText = "";
